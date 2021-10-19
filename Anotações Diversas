@@ -1,0 +1,104 @@
+  
+
+ 1 - criar repositorio
+ 2 - criar ou apontar dockerfile a ser utlizado
+ 3 - buildar a imagem
+ 4 - taguiar a imagem passando o passo 3 do comando la no push no console da aws 
+ 5 - fazer o push da imagem comando esta no passo 4 no sonsole da aws
+
+
+
+
+
+
+
+
+
+sudo docker build -t start_stop_intances --build-arg SSH_KEY="$(cat ~/.ssh/id_rsa)" .
+
+sudo docker tag start_stop_intances:latest 369360081500.dkr.ecr.us-east-1.amazonaws.com/sgtestelucas:latest
+
+sudo docker tag sgtestelucas:latest 369360081500.dkr.ecr.us-east-1.amazonaws.com/sgtestelucas:latest
+
+sudo docker push 369360081500.dkr.ecr.us-east-1.amazonaws.com/sgtestelucas:latest
+
+
+
+
+sudo docker build -t start_stop_intances --build-arg SSH_KEY="$(cat ~/.ssh/id_ed25519)" .
+
+python3 Script_SG.py arn:aws:iam::190304403207:role/Jenkins-Crowdstrike_Egress_Role
+poetry add git+ssh://git@gitlab.com/bancobarigui/development/devops/pybari.devops.git
+
+
+
+
+
+1 criar repositorio em ECR na aws
+ 
+
+conectar a minha maquina local com a aws 2 opções: criar uma role ou gerar uma access key e uma secret key para permitir a conexção e a comunicação da maquina localhost com a aws
+
+
+1. Crie um repositório no AWS ECR
+2. Crie uma função IAM com ContainerRegistryFullAccess
+3. Atribua a função à instância EC2
+4. Baixe o pythonApp do Github.
+5. Construir imagem docker para o aplicativo Python
+6. Envie a imagem da janela de encaixe para ECR
+7. Execute o aplicativo python no contêiner do Docker
+
+
+
+
+
+
+
+
+
+
+analista de negocios 
+não muita exige experiencia 
+treinar essa pessoa 
+1500 entre 2000 medica odontol sugro de vida va vr plr gympass 
+acompanhamento pra desenvolvimento 
+90% remoto 
+segunda 13:30 com o gerente duvida com operacional 
+trabalhar em 2 linhas de frente com o cliente e na area de t.i e ver em qual vai se desenvolver 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#arn_role = "arn:aws:iam::190304403207:role/Jenkins-Crowdstrike_Egress_Role"
+
+
+QUAL FERRAMENTA DE CRM VCS USAM
+
+QUAL A AUTOMATIZAÇÃO DE PROCESSOS EM EXPESSIFICO VCS FAZEM 
+
+A VAGA É REMOTA?
+
+
+
+QUERO ME DESAFIAR A APRENDER MAIS 
+
+CONCILIAR OS 2 EMPREGOS
+
+TRABALHO COM AUTOMATIZAÇÃO DE PROCESSOS EM PYTHON 
